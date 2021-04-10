@@ -1,0 +1,68 @@
+# Site settings
+#
+# title: American Dental Clinic | Dental Jekyll Theme
+title: American Dental Clini
+description: "A responsive Jekyll theme for dental clinics."
+baseurl: "/adcpp" # the subpath of your site, e.g. /blog
+url: "https://tech-g2k.github.io" # the name of your domain
+logo_url: svg/min/ADC-Title.svg
+
+# Hero
+hero: 
+    hero_img: hero.jpeg
+    hero_title: American Dental Clinic
+    hero_description: Serving Cambodia since 2005
+
+# Contact form
+# Enter API token here
+api_token: AKfycbw99ZCFhr9pzbMDUdhGiyNTAy1l2aKFItSaeK5ysoHxuh341PhmBqdVi3URC3xWl7Lu
+
+# Contact info
+contact:
+    phone: 023-884-234
+    emergency: 092-622-402
+    email: adc@adcpp.com
+    address: House 03Eo, Street 289 (Samdach Penn Nouth) / (Kim IL Sung Blvd) Boeng Kok 1, Toul Kouk, Phnom Penh, Cambodia.
+
+# Opening hours
+monday: 9:00 – 18:00
+saturday: 10:00 – 17:00
+sunday: 10:00 – 15:00
+
+# Testimonials
+testimonials:
+    testimonials_img: parallax.jpeg
+
+# Map
+map:
+    zoom: 17
+    address: House 03Eo, Street 289, Samdach Penn Nouth St. (289), Phnom Penh 12000, Cambodia
+    address_details: svg/min/logo.svg
+
+# Social settings
+facebook: http://facebook.com
+twitter: http://twitter.com
+instagram: http://instagram.com
+youtube: http://youtube.com
+skype: skype:obaez_design?userinfo
+feed: yes
+
+# Footer
+copyright: © 2015 American Dental Clinic - All rights reserved
+
+# Build settings
+markdown: kramdown
+
+exclude: [
+    package.json,
+    Gruntfile.js,
+    node_modules,
+    .sass-cache,
+    Gemfile,
+    Gemfile.lock,
+    .gitignore
+]
+
+# Theme Settings
+analytics: 
+google_verification:
