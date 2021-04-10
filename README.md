@@ -1,3 +1,5 @@
+# Below is the original text of the readme file that I cloned the source code from:
+
 # DentistSmile - Jekyll Theme
 
 A single page Jekyll theme for dental clinics. It's easily customizable and responsive. It comes with svg icons, google map and a working contact form. Docs can be found [here](http://obaez.com/dentistsmile-docs/).
