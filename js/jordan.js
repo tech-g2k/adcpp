@@ -15,6 +15,7 @@ function sendEmail(e) {
 
   const postRequest = {
     name: e.target['name-field'].value,
+    phone: e.target['phone-field'].value,
     email: e.target['email-field'].value,
     subject: e.target['other-subject-field'].value || e.target['subject-field'].value,
     body: e.target['body-field'].value

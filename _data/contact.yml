@@ -1,0 +1,19 @@
+- div-cl: form-field form-group
+  id: name-field
+  placeholder: Your name
+  input-cl: form-control
+
+- div-cl: form-field form-group
+  id: phone-field
+  placeholder: Phone number
+  input-cl: form-control
+
+- div-cl: form-field form-group
+  id: email-field
+  placeholder: Email address
+  input-cl: form-control
+
+- div-cl: form-field form-group
+  id: body-field
+  placeholder: Type your message here
+  input-cl: form-control

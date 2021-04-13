@@ -3,8 +3,8 @@
 # title: American Dental Clinic | Dental Jekyll Theme
 title: American Dental Clini
 description: "A responsive Jekyll theme for dental clinics."
-baseurl: "/adcpp" # the subpath of your site, e.g. /blog
-url: "https://tech-g2k.github.io" # the name of your domain
+# baseurl: "/adcpp" # the subpath of your site, e.g. /blog
+# url: "https://tech-g2k.github.io" # the name of your domain
 logo_url: svg/min/ADC-Title.svg
 
 # Hero
