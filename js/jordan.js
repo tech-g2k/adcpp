@@ -11,16 +11,15 @@ function formFocus() {
 function sendEmail(e) {
   e.preventDefault();
 
-  const POST_URL = '';
+  const POST_URL = 'https://script.google.com/macros/s/AKfycby1ZI5Z5iOf30iQHGwCx2YxETVHYlFnXHq4LGCy3FvST4ZPrq2yMxvo6ybcmPa-4jv-/exec'
 
   const postRequest = {
     name: e.target['name-field'].value,
     phone: e.target['phone-field'].value,
     email: e.target['email-field'].value,
-    subject: e.target['other-subject-field'].value || e.target['subject-field'].value,
     body: e.target['body-field'].value
   };
-  
+
   if(POST_URL) {
     $.post(POST_URL, JSON.stringify(postRequest))
       .then(res => {

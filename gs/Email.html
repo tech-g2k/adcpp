@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+    <style>
+      .bg {
+        background-color: #222E3E; 
+        color: white;
+        text-align: center;
+      }
+      img.align-left {
+        float: left;
+      }
+
+      img.align-right {
+        float: right;
+      }
+      table.roundedCorners { 
+        width: 75%;
+        border: 1px solid DarkOrange;
+        border-radius: 13px; 
+        border-spacing: 0;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      table.roundedCorners td, 
+      table.roundedCorners th { 
+        border-bottom: 1px solid DarkOrange;
+        padding: 10px; 
+      }
+      /* this code is not working for Chrome base browser */
+      table.roundedCorners tr:last-child > td {
+        border-bottom: none;
+      }
+    </style>
+  </head>
+
+  <body class="bg">
+    <!-- https://drive.google.com/file/d/1EKMG6XUxBgFG74rW3g2cIH0EC6PFfEZG/view?usp=sharing -->
+    <p>
+      <img title="ADC Logo" src="http://drive.google.com/uc?export=view&id=1EKMG6XUxBgFG74rW3g2cIH0EC6PFfEZG"
+          alt="ADC Logo" width="120" height="120" /></p>
+    <h2 style="text-align: center;">ADCPP Contact Form</h2>
+    <h2 style="text-align: center;">Information:</h2>
+    <!-- <table style="border-collapse: collapse; width: 55%; height: 76px; margin-left: auto; margin-right: auto;" border="2"> -->
+  <table class="roundedCorners">
+    <thead>
+      <tr>
+        <th style="text-align: right;">Name:</th>
+        <th style="text-align: left;"><?= name ?></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align: right;">Phone:</td>
+        <td style="text-align: left;"><?= phone ?></td>
+      </tr>
+      <tr>
+        <td style="text-align: right;">Email:</td>
+        <td style="text-align: left;"><?= email ?></td>
+      </tr>
+      <tr>
+        <td style="text-align: right; border-bottom: none">Comment:</td>
+        <td style="text-align: left; border-bottom: none"><?= comment ?></td>
+      </tr>
+    </tbody>
+  </table>
+    <br><br>
+  </body>
+</html>
