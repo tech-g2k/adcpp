@@ -1,34 +1,9 @@
-- name: Britta Perry
-  image: /team/team4.jpeg
-  email: email@gmail.com
-  phone: 9659 43 21
+- name: Dr. Makara
+  image: /team/Makara.jpeg
+  email: info@adcphnompenh.com
+  phone: 092 622 402
 
-- name: Troy Barnes 
-  image: /team/team2.jpeg
-  email: email@gmail.com
-  phone: 9659 43 21
-
-- name: Annie
-  image: /team/team1.jpeg
-  email: email@gmail.com
-  phone: 9659 43 21
-
-- name: Jeff Winger
-  image: /team/team3.jpeg
-  email: email@gmail.com
-  phone: 9659 43 21
-
-- name: Britta Perry
-  image: /team/team4.jpeg
-  email: email@gmail.com
-  phone: 9659 43 21
-
-- name: Troy Barnes
-  image: /team/team2.jpeg
-  email: email@gmail.com
-  phone: 9659 43 21
-
-- name: Annie
-  image: /team/team1.jpeg
-  email: email@gmail.com
-  phone: 9659 43 21
+- name: Dr. Pagna
+  image: /team/Pagna.jpeg
+  email: info@adcphnompenh.com
+  phone: 092 622 402
