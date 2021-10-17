@@ -11,8 +11,8 @@ function formFocus() {
 function sendEmail(e) {
   e.preventDefault();
 
-  const POST_URL = 'https://script.google.com/macros/s/AKfycby1ZI5Z5iOf30iQHGwCx2YxETVHYlFnXHq4LGCy3FvST4ZPrq2yMxvo6ybcmPa-4jv-/exec'
-
+  const POST_URL = 'https://script.google.com/macros/s/AKfycbwPpF3OP6EIKgpOQ3wNyaHdfejkWgFVOFrjZY3BHArtMfDHfxySmSZ9z0PPEeb4yrPr/exec'
+  
   const postRequest = {
     name: e.target['name-field'].value,
     phone: e.target['phone-field'].value,
