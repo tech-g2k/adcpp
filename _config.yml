@@ -19,15 +19,14 @@ api_token: AKfycbw99ZCFhr9pzbMDUdhGiyNTAy1l2aKFItSaeK5ysoHxuh341PhmBqdVi3URC3xWl
 
 # Contact info
 contact:
-    phone: 023-884-234
-    emergency: 092-622-402
+    phone1: 092 622 402
+    phone2: 010 622 442
     email: adc@adcpp.com
     address: House 03Eo, Street 289 (Samdach Penn Nouth) / (Kim IL Sung Blvd) Boeng Kok 1, Toul Kouk, Phnom Penh, Cambodia.
 
 # Opening hours
-monday: 9:00 – 18:00
-saturday: 10:00 – 17:00
-sunday: 10:00 – 15:00
+monday: 8:30 – 12:00
+saturday: 13:00 – 17:00
 
 # Testimonials
 testimonials:

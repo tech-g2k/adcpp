@@ -4,8 +4,8 @@
         <svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>
         <h3>Contact Us</h3>
         <ul>
-            {% if site.contact.phone %}<li><strong>Phone:</strong> {{ site.contact.phone }}</li>{% endif %}
-            {% if site.contact.emergency %}<li><strong>Emergency:</strong> {{ site.contact.emergency }}</li>{% endif %}
+            {% if site.contact.phone1 %}<li><strong>Phone:  </strong> {{ site.contact.phone1 }}</li>{% endif %}
+            {% if site.contact.phone1 %}<li><strong>Phone:  </strong> {{ site.contact.phone2 }}</li>{% endif %}
             {% if site.contact.email %}<li><strong>Email:</strong> {{ site.contact.email }}</li>{% endif %}
         </ul>
     </div>
@@ -15,16 +15,12 @@
         <table>
             <tbody>
                 <tr>
-                    <td>Monday – Friday</td>
+                    <td>Monday – Sunday</td>
                     <td>{{ site.monday }}</td>
                 </tr>
                 <tr>
-                    <td>Saturday</td>
+                    <td>Monday - Sunday</td>
                     <td>{{ site.saturday }}</td>
-                </tr>
-                <tr>
-                    <td>Sunday</td>
-                    <td>{{ site.sunday }}</td>
                 </tr>
             </tbody>
         </table>
