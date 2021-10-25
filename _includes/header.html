@@ -15,14 +15,9 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse scrollspy" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                <li><a class="scroll" href="#top">Home</a></li>
-                <li><a class="scroll" href="#about">About</a></li>
-                <li><a class="scroll" href="#treatments">Treatments</a></li>
-                <li><a class="scroll" href="#team">Team</a></li>
-                <li><a class="scroll" href="#testimonials">Testimonials</a></li>
-                <li><a class="scroll" href="#gallery">Gallery</a></li>
-                <!--li><a class="scroll" href="#location">Location</a></li-->
-                <li><a href="https://goo.gl/maps/oGMmyjHAwbVfdeKz9" target="_blank">Map</a></li>
+              {% for item in site.data.nav.items %}
+                <li><a class="scroll" href="{{ item.link }}">{{ item.name }}</a></li>
+              {% endfor %}
             </ul>
         </div>
     </div>
