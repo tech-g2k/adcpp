@@ -11,7 +11,7 @@ logo_url: svg/min/ADC-Title.svg
 hero: 
     hero_img: hero.jpeg
     hero_title: American Dental Clinic
-    hero_description: Serving Cambodia since 2005
+    hero_description: Serving Cambodia since 2005.
 
 # Contact form
 # Enter API token here
