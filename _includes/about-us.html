@@ -7,50 +7,20 @@
             <div class="col-sm-6">
                 <h3>Welcome to American Dental Clinic</h3>
 
+                {% for about in site.data.about-us %}
                 <div class="media">
                     <div class="media-left">
                         <div class="boxed-icon">
-                            <svg class="icon icon-trophy"><use xlink:href="#icon-trophy"></use></svg>
+                            <svg class="icon {{ about.icon }}"><use xlink:href="#{{ about.icon }}"></use></svg>
                         </div>
                     </div>
                     <div class="media-body">
-                        <p>Aiming for excellent in dental treatments!</p>
+                        <p>{{ about.details }}</p>
                     </div>
                 </div>
-
-                <div class="media">
-                    <div class="media-left">
-                        <div class="boxed-icon">
-                            <svg class="icon icon-heart"><use xlink:href="#icon-heart"></use></svg>
-                        </div>
-                    </div>
-                    <div class="media-body">
-                        <p>Serving patients as individuals and honoring their humanity.</p>
-                    </div>
-                </div>
-
-                <div class="media">
-                    <div class="media-left">
-                        <div class="boxed-icon">
-                            <svg class="icon icon-medkit"><use xlink:href="#icon-medkit"></use></svg>
-                        </div>
-                    </div>
-                    <div class="media-body">
-                        <p>Team commitment to respect, communication and diversity.</p>
-                    </div>
-                </div>
-
-                <div class="media">
-                    <div class="media-left">
-                        <div class="boxed-icon">
-                            <svg class="icon icon-star"><use xlink:href="#icon-star"></use></svg>
-                        </div>
-                    </div>
-                    <div class="media-body">
-                        <p>Leadership in dentistry.</p>
-                    </div>
-                </div>
+                {% endfor %}
             </div>
+
             <div class="col-sm-6">
                 <img src="img/about.jpeg" alt="...">
             </div>
