@@ -1,10 +1,10 @@
 items:
   - name: About
     link: "#about"
-  - name: Treatments
-    link: "#treatments"
   - name: Team
     link: "#team"
+  - name: Testimonials
+    link: "#testimonials"
   - name: Gallery
     link: "#gallery"
   - name: Map
