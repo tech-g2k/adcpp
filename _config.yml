@@ -1,6 +1,7 @@
 # Site settings
 #
 # title: American Dental Clinic | Dental Jekyll Theme
+#
 title: American Dental Clinic
 description: "Serving Cambodia since 2005."
 baseurl: "/adcpp" # the subpath of your site, e.g. /blog
