@@ -27,13 +27,13 @@
                 </div>    
 
                 {% for c in site.data.contact %}
-                    <div class="{{ c.div-cl }}">
+                    <div class="form-group form-field">
                         <input type="{{ c.type }}" id="{{ c.id }}" name="{{ c.id }}" placeholder="{{ c.placeholder }}" required>
                     </div>
                 {% endfor %}
             
                 <div class="form-group form-field">
-                    <textarea id="body-field" name="body-field" placeholder="Type your message here" required></textarea>
+                    <textarea id="body-field" name="body-field" placeholder="Type your message here..." required></textarea>
                 </div>
             
                 <div class="form-group form-field">
@@ -46,6 +46,8 @@
     </div>
 </div>
 <!-- End Hero -->
+
+
 
 
 

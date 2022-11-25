@@ -11,7 +11,7 @@ function formFocus() {
 function sendEmail(e) {
   e.preventDefault();
 
-  const POST_URL = 'https://script.google.com/macros/s/AKfycbwPpF3OP6EIKgpOQ3wNyaHdfejkWgFVOFrjZY3BHArtMfDHfxySmSZ9z0PPEeb4yrPr/exec'
+  const POST_URL = 'https://script.google.com/macros/s/AKfycbxVWaaSxjh6oFswvqNsgnOrhunczuFJVr-i2qkBzM8Ieh7xFp_vN8tSFyCUfdTBBLR2/exec'
   
   const postRequest = {
     name: e.target['name-field'].value,
@@ -51,3 +51,5 @@ function changeSubject(e) {
     $('#hidden-other-subject').addClass('hidden');
   }
 }
+
+

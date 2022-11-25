@@ -1,17 +1,12 @@
-- div-cl: form-field form-group
-  id: name-field
+- id: name-field
   placeholder: Your name
   type: text
-  input-cl: form-control
 
-- div-cl: form-field form-group
-  id: phone-field
+- id: phone-field
   placeholder: Phone number
   type: phone
-  input-cl: form-control
 
-- div-cl: form-field form-group
-  id: email-field
+- id: email-field
   placeholder: Email address
   type: email
-  input-cl: form-control
+
